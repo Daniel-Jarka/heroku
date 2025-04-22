@@ -1,11 +1,16 @@
 {
-  "name": "helloapp",
+
+  "name": "stock",
   "version": "1.0.0",
-  "description": "node app ",
-  "main": "heroku.js",
+  "description": "stock app",
+  "main": "stock.js",
   "scripts": {
-  "start": "node heroku.js"
-},
+    "start": "node stock.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
   "repository": {
   "type": "git",
   "url": ""
