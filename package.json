@@ -1,16 +1,11 @@
 {
-
-  "name": "stock",
+  "name": "stocks",
   "version": "1.0.0",
-  "description": "stock app",
+  "description": "stock app ",
   "main": "stock.js",
   "scripts": {
-    "start": "node stock.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "start": "node stock.js"
+},
   "repository": {
   "type": "git",
   "url": ""
