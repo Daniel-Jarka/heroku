@@ -21,7 +21,7 @@
   },
   "homepage": "",
   "dependencies": {
-    "express": "^4.17.1", <--- Add this line (the version might be different)
-    "mongodb": "^6.x.x"   <--- Make sure mongodb is also here if you're using it
+    "express": "^4.17.1", 
+    "mongodb": "^6.x.x"   
   }
 }
