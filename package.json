@@ -1,19 +1,27 @@
 {
-  "name": "stocks",
+  "name": "stock",
   "version": "1.0.0",
-  "description": "stock app ",
+  "description": "stock app",
   "main": "stock.js",
   "scripts": {
-  "start": "node stock.js"
-},
+    "start": "node stock.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "repository": {
-  "type": "git",
-  "url": ""
-},
+    "type": "git",
+    "url": ""
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1", <--- Add this line (the version might be different)
+    "mongodb": "^6.x.x"   <--- Make sure mongodb is also here if you're using it
+  }
 }
